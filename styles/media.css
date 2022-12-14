@@ -1,0 +1,154 @@
+@media (max-width:1400px) {
+    .street__title{
+    display: none;
+    
+    }
+  
+}
+
+@media (max-width:1200px) {
+ 
+}
+
+@media (max-width:1160px) {
+    .main__burger-text2{
+        max-width:  1110px;
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width:1110px){
+    
+}
+
+@media (max-width:992px) {
+ .burger__button{
+    display: block;
+
+ }
+
+ .header__street-list{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    row-gap: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    max-width: 200px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    z-index: 99;
+ }
+
+ .burger__button:focus~.header__street-list{
+    left: 0;
+ }
+}
+
+@media (max-width:768px) {
+
+}
+ 
+ 
+@media (max-width:690px) {
+ .main__burger-text2{
+    margin-bottom: 30px;
+ }
+
+ .main__price-view{
+    margin-left: 15px;
+ }
+ 
+
+}
+
+
+
+
+@media (max-width:576px) {
+    .main__burger-text2{
+        margin-bottom: 30px;
+     }
+
+     .main__view{
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+     }
+
+    .main__price-view{
+        margin-top: 15px;
+     }
+
+     .header__navbar-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        padding-top: 10px;
+        
+        row-gap: 15px;
+     }
+
+     .main__burger-list{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+     }
+
+}
+
+@media (max-width:420px){
+    
+    
+    .main__view-price{
+        font-size: 25px;
+        line-height: 12px;
+        color: #FFFFFF;
+        background: rgba(105, 207, 23, 0.5);
+        backdrop-filter: blur(9px);
+        padding: 30px 60px;
+    }
+
+    .main__price-view{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+        border-radius: 6px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 20px 25px;
+    }
+
+    .main__burger-title{
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .main__view{
+       margin: 80px 0;
+    }
+
+    .footer__street-about{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:340px){
+    .main__burger-title{
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+    }
+}

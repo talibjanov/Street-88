@@ -1,0 +1,373 @@
+@import 'font.css';
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+   padding: 15px;
+}
+
+.header{
+    background: black;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.header__navbar-nav{
+    display: flex;
+    padding: 17px 0;
+}
+
+.header__navbar-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar-list{
+list-style: none;
+display: flex;
+column-gap: 20px;
+}
+
+.header__navbar-link{
+color: white;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+
+.header__street-head{
+    border-top: 1px solid rgba(125, 115, 115, 0.5);
+    border-bottom: 1px solid rgba(125, 115, 115, 0.5);
+}
+.header__street{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__street-logo{
+    padding-bottom: 6px;
+   padding-top: 6px;
+}
+
+.header__street-list{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+    list-style: none;
+}
+
+.header__street-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 400;    
+    font-size: 18px;    
+    line-height: 21px;
+    padding: 22px 14px;
+    transition: 0.5s;
+}
+
+.header__street-link:hover{
+background:rgba(105, 207, 23, 0.75);
+}
+
+.main__burger{
+   background: url(../images/bg.jpg)top / cover no-repeat;
+   height:800px;
+}
+
+.main__burger-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 167px;
+}
+
+.main__burger-title{
+    font-family: 'Raleway';
+    font-weight: 900;    
+    font-size: 72px;
+    color: #69CF17;
+}
+
+.main__burger-text{
+    font-family: 'Raleway';
+    font-weight: 400;    
+    font-size: 36px;    
+    line-height: 17px;
+    color: #69CF17;
+    margin-top: 18px;
+}
+
+.main__burger-text2{
+    font-family: 'Raleway';
+    width: 1110px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.main__view{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__view-price{
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(9px);
+    padding: 33px 76px;
+}
+
+.main__price-view{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:  15px 71px;
+   
+}
+
+.main__burger-list{
+    padding-top: 69px;
+    padding-bottom: 20px;
+    background: #292929;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+    padding-left: 21px;
+    list-style: none;
+    display: flex;
+    column-gap: 36px;
+}
+
+.main__burger-link{
+text-decoration: none;
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: white;
+border-bottom: 1px solid white;
+padding-bottom: 19px;
+border-color: transparent;
+transition: 0.5s;
+}
+
+.main__burger-link:hover{
+    border-color: white;
+}
+
+
+.burger{
+    background: #393636;
+}
+
+.burger__tabs{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.burger__catalogs{
+    background: #0C0C0C;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    max-width: 370px;
+    width: 100%;
+    height: 524px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px 16px;
+}
+
+.burger__catalogs > img{
+    width: 100%;
+}
+
+.burger-catalogs-title{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 15px;
+    color: white;
+    margin-top: 15px;
+}
+
+.burger__catalogs-text{
+    font-family: 'Raleway';
+    font-size: 19px;
+    line-height: 25px;
+    color: white;
+    margin-top: 15px;
+}
+
+.main__street{
+background: white;
+}
+
+.main__street-filial{
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+    color: #69CF17;
+    padding:20px 0;
+}
+
+.main__street iframe{
+width: 100%;
+height: 500px;
+}
+
+.footer{
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+
+.footer__street{
+    padding-top: 30px;
+    
+}
+
+.footer__street-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__about-text{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.footer__about-list{
+display: flex;
+list-style: none;
+justify-content: center;
+margin-top: 81px;
+padding-bottom: 81px;
+column-gap: 20px;
+}
+
+
+.footer__about-link{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.footer__about-proweb{
+    background: #1A3406;
+}
+
+.footer__about-end{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 19px 0;
+    color: white;
+}
+
+/*page2*/
+
+.street__about-info{
+    background: black;
+}
+
+.street__cook{
+    padding-top: 30px;
+}
+
+.street__box{
+    position: relative;
+}
+
+.street__box >img{
+    width: 100%;
+}
+
+
+.street__title{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    color: rgba(105, 207, 23, 0.7);
+
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+    text-transform: uppercase;
+    position: absolute;
+    left: 413px;
+    top: 167px;
+}
+
+.street__boxs-text{
+    font-family: 'Raleway';
+    font-weight: 700;    
+    font-size: 18px;    
+    line-height: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: justify;
+}
+
+
+.burger__button{
+border: none;
+outline: none;
+border-radius: 2px;
+width: 30px;
+height: 30px;
+cursor: pointer;
+display: none;
+margin-top: 15px;
+}
